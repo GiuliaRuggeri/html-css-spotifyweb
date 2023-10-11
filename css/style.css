@@ -6,8 +6,9 @@
 
 body {
     font-family: sans-serif;
-    height: 100vh; 
-    
+    height: 100vh;
+    overflow: hidden;
+
 }
 
 main {
@@ -45,7 +46,7 @@ main>.musiccontainer {
     height: 15%;
 }
 
-li>a {
+a {
     text-decoration: none;
 }
 
@@ -57,21 +58,21 @@ li>a {
     overflow: auto;
 }
 
-.profpic{
+.profpic {
     background-color: gray;
     border-radius: 50%;
-    width:30px;
+    width: 30px;
     height: 30px;
     padding: 4px;
 }
 
-.profpic > img{
+.profpic>img {
     object-fit: contain;
     width: 100%;
     height: 100%;
 }
 
-.button{
+.button {
     border: solid 1px white;
     border-radius: 20px;
     padding: 0.5em;
@@ -83,6 +84,51 @@ li>a {
     color: white;
     line-height: 1.5em;
 }
+
+.card {
+    width: calc(100% / 6 - 20px);
+
+}
+
+.cardimg {
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.cardimground {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+.cardfooter {
+    width: 20%;
+    padding: 10px;
+
+}
+
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 10px;
+    background: blue 
+    
+
+}
+.slider::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 23px;
+    height: 24px;
+    border: 0;
+    cursor: pointer;
+}
+
+
+
 
 /* * UTILITIES * */
 
@@ -109,8 +155,12 @@ li>a {
     display: flex;
 }
 
-.flex-dir-col{
+.flex-dir-col {
     flex-direction: column;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
 }
 
 .justify-center {
@@ -121,7 +171,11 @@ li>a {
     justify-content: space-between;
 }
 
-.justify-end{
+.justify-spacearound {
+    justify-content: space-around;
+}
+
+.justify-end {
     justify-content: flex-end;
 }
 
@@ -143,6 +197,10 @@ li>a {
     color: gray;
 }
 
+.text-lightgray {
+    color: lightgray;
+}
+
 .text-center {
     text-align: center;
 }
@@ -153,11 +211,28 @@ li>a {
     margin-left: 5px;
 }
 
+
+.margin-left-15 {
+    margin-left: 15px;
+}
+
+.margin-left-20 {
+    margin-left: 20px;
+}
+
 .margin-right-5 {
     margin-right: 5px;
 }
 
-.margin-top-10{
+.margin-right-10 {
+    margin-right: 10px;
+}
+
+.margin-top-5 {
+    margin-top: 5px;
+}
+
+.margin-top-10 {
     margin-top: 10px;
 }
 
@@ -169,9 +244,21 @@ li>a {
     margin-bottom: 15px;
 }
 
-.margin-bottom-10{
+.margin-bottom-10 {
     margin-bottom: 10px;
 }
+
+.margin-auto {
+    margin: auto;
+}
+
+/* PADDING */
+
+.padding-10 {
+    padding: 10px;
+}
+
+
 
 /* FONT */
 
@@ -188,20 +275,37 @@ li>a {
 }
 
 /* HEIGHT */
- .max-ht-200{
+.max-ht-200 {
     max-height: 200px;
- }
+}
 
- .ht-100{
+.ht-8 {
+    height: 8%;
+}
+
+.ht-100 {
     height: 100%;
- }
+}
 
- .ht-15{
+.ht-15 {
     height: 15%;
+}
+
+/* WIDTH */
+
+.width-1_2 {
+    width: 1.2em;
+}
+
+.width-60 {
+    width: 60%;
+}
+
+
+ .width-25{
+    width: 25%;
  }
 
- /* WIDTH */
-
- .width-1_5{
-    width: 1.2em;
+ .width-50{
+    width: 50%;
  }
