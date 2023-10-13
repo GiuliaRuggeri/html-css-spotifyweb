@@ -15,7 +15,8 @@
         <nav class="bg-color-black dflex flex-dir-col">
             <div>
                 <div class="containerlogo">
-                    <img class="logo" src="img/logo.svg" alt="spotify logo">
+                    <img class="logo mobile-hidden" src="img/logo.svg" alt="spotify logo">
+                    <img class="logosmall" src="img/logo-small.svg" alt="logo small">
                 </div>
                 <section class="menulist">
                     <ul>
@@ -23,7 +24,7 @@
                             <a href="#" class="dflex align-center">
                                 <img class="navicons margin-top-15 margin-left-5 margin-right-5 margin-bottom-15"
                                     src="img/home.svg" alt="home icon">
-                                <span class="text-gray font-size-1 font-bold">
+                                <span class="text-gray font-size-1 font-bold mobile-hidden">
                                     Home
                                 </span>
                             </a>
@@ -32,7 +33,7 @@
                             <a href="#" class="dflex align-center">
                                 <img class="navicons margin-left-5 margin-right-5 margin-bottom-15" src="img/search.svg"
                                     alt="search">
-                                <span class="text-gray font-size-1 font-bold">
+                                <span class="text-gray font-size-1 font-bold mobile-hidden">
                                     Cerca
                                 </span>
                             </a>
@@ -41,7 +42,7 @@
                             <a href="#" class="dflex align-center">
                                 <img class="navicons margin-left-5 margin-right-5 margin-bottom-15"
                                     src="img/libreria.svg" alt="library">
-                                <span class="text-gray font-size-1 font-bold">
+                                <span class="text-gray font-size-1 font-bold mobile-hidden">
                                     La tua libreria
                                 </span>
                             </a>
@@ -49,7 +50,7 @@
                     </ul>
 
                 </section>
-                <section class="playlist">
+                <section class="playlist mobile-hidden">
                     <h3 class="text-white margin-left-5 margin-bottom-15 margin-top-15 font-bold">PLAYLIST</h3>
                     <div class="dflex align-center crossbox">
                         <div class="crossicon bg-color-gray margin-left-5">
@@ -89,19 +90,19 @@
             <div class="dflex ht-100 flex-dir-col justify-end navbottom">
                 <div class="dflex align-center margin-bottom-10">
                     <img class="installbutton margin-left-5 margin-right-5" src="img/download.svg" alt="downloadbutton">
-                    <span class="text-gray">Installa app</span>
+                    <span class="text-gray mobile-hidden">Installa app</span>
                 </div>
-                <hr>
+                <hr class="mobile-hidden">
                 <div class="dflex margin-top-10 align-center margin-bottom-15">
                     <div class="margin-left-5 profpic">
                         <img class="width-1_2" src="img/profile.svg" alt="profilepic">
                     </div>
-                    <span class="text-white margin-left-5">John Doe</span>
+                    <span class="text-white margin-left-5 mobile-hidden">John Doe</span>
                 </div>
             </div>
         </nav>
         <section class="musiccontainer bg-color-black2 overflow">
-            <div class="ht-15 bg-color-black3 dflex justify-end align-center font-bold margin-bottom-15">
+            <div class="buttoncontainer ht-15 bg-color-black3 dflex justify-end align-center font-bold margin-bottom-15">
                 <a class="button" href="#">
                     EFFETTUA L'UPGRADE
                 </a>
@@ -139,8 +140,8 @@
                             <i class="fa-regular fa-circle-play text-white font-size-2_5"></i>
                         </div>
                     </div>
-                    <h4 class="text-center text-white margin-top-10">Heavy Metal</h4>
-                    <p class="text-center margin-top-10 text-gray font-bold">Subtitle</p>
+                    <h4 class="text-center text-white margin-top-10 font-size-0_5">Heavy Metal</h4>
+                    <p class="text-center margin-top-10 text-gray font-bold font-size-0_8">Subtitle</p>
 
                 </div>
                 <div class="card">
@@ -151,9 +152,9 @@
                         </div>
                     </div>
 
-                    <h4 class="text-center text-white margin-top-10">Stranger Things, Vol. 1 (a Netflix Original Series
+                    <h4 class="text-center text-white margin-top-10 font-size-0_8">Stranger Things, Vol. 1 (a Netflix Original Series
                         Soundtrack)</h4>
-                    <p class="text-center margin-top-10 text-gray font-bold">Kyle Dixon & Michael Stein</p>
+                    <p class="text-center margin-top-10 text-gray font-bold font-size-0_8">Kyle Dixon & Michael Stein</p>
                 </div>
                 <div class="card">
                     <div class="position-rel">
@@ -162,8 +163,8 @@
                             <i class="fa-regular fa-circle-play text-white font-size-2_5"></i>
                         </div>
                     </div>
-                    <h4 class="text-center text-white margin-top-10">A quiet place</h4>
-                    <p class="text-center margin-top-10 text-gray font-bold">Subtitle</p>
+                    <h4 class="text-center text-white margin-top-10 font-size-0_8">A quiet place</h4>
+                    <p class="text-center margin-top-10 text-gray font-bold font-size-0_8">Subtitle</p>
                 </div>
                 <div class="card">
                     <div class="position-rel">
@@ -172,8 +173,8 @@
                             <i class="fa-regular fa-circle-play text-white font-size-2_5"></i>
                         </div>
                     </div>
-                    <h4 class="text-center text-white margin-top-10">Split</h4>
-                    <p class="text-center margin-top-10 text-gray font-bold">Subtitle</p>
+                    <h4 class="text-center text-white margin-top-10 font-size-0_8">Split</h4>
+                    <p class="text-center margin-top-10 text-gray font-bold font-size-0_8">Subtitle</p>
                 </div>
                 <div class="card">
                     <div class="position-rel">
@@ -182,8 +183,8 @@
                             <i class="fa-regular fa-circle-play text-white font-size-2_5"></i>
                         </div>
                     </div>
-                    <h4 class="text-center text-white margin-top-10">A cure for wellness</h4>
-                    <p class="text-center margin-top-10 text-gray font-bold">Subtitle</p>
+                    <h4 class="text-center text-white margin-top-10 font-size-0_8">A cure for wellness</h4>
+                    <p class="text-center margin-top-10 text-gray font-bold font-size-0_8">Subtitle</p>
                 </div>
                 <div class="card">
                     <div class="position-rel">
@@ -192,8 +193,8 @@
                             <i class="fa-regular fa-circle-play text-white font-size-2_5"></i>
                         </div>
                     </div>
-                    <h4 class="text-center text-white margin-top-10">Sinister</h4>
-                    <p class="text-center margin-top-10 text-gray font-bold">Subtitle</p>
+                    <h4 class="text-center text-white margin-top-10 font-size-0_8">Sinister</h4>
+                    <p class="text-center margin-top-10 text-gray font-bold font-size-0_">Subtitle</p>
                 </div>
 
             </div>
@@ -231,32 +232,32 @@
 
 
     </main>
-    <footer class="bg-color-footer dflex align-center justify-spacebw">
+    <footer>
+        <div class="left-box">
+            <div class="width-100 dflex justify-spacearound align-center ht-100">
+                    <img class="cardfooter" src="img/sinister.jpeg" alt="sinister">
+                    <div class="footertext">
+                        <h5 class="text-white font-size-1 margin-bottom-10">Sinister</h5>
+                        <p class="text-lightgray font-size-1 font-bold">Brano Nome</p>
+                    </div>
 
-
-        <div class="dflex align-center width-300">
-            <div class="dflex align-center">
-                <img class="cardfooter" src="img/sinister.jpeg" alt="sinister">
-                <div class="footertext">
-                    <h5 class="text-white font-size-1 margin-bottom-10">Sinister</h5>
-                    <p class="text-lightgray font-size-1 font-bold">Brano Nome</p>
-                </div>
-                <div class="margin-left-20 footericon">
+                <div class="footericon">
                     <i class="fa-regular fa-heart text-gray font-size-1_5 hearticon"></i>
-                    <i class="fa-regular fa-folder text-gray margin-left-5 font-size-1_5 foldicon"></i>
+                    <i class="fa-regular fa-folder text-gray font-size-1_5 foldicon"></i>
                 </div>
             </div>
-
         </div>
-        <div class="dflex align-center flex-dir-col width-calc">
+
+
+        <div class="central-box">
             <div class="margin-bottom-15 margin-top-15 containericon">
-                <i class="fa-solid fa-shuffle text-white margin-right-10 font-size-2"></i>
-                <i class="fa-solid fa-backward-step text-white margin-right-10 font-size-2"></i>
-                <i class="fa-regular fa-circle-play text-white margin-right-15 margin-left-15 font-size-2_5 playfooter"></i>
-                <i class="fa-solid fa-forward-step text-white  margin-left-10 margin-right-10 font-size-2"></i>
-                <i class="fa-solid fa-rotate-right text-white margin-right-10 font-size-2"></i>
+                <i class="fa-solid fa-shuffle text-white font-size-2"></i>
+                <i class="fa-solid fa-backward-step text-white  font-size-2"></i>
+                <i class="fa-regular fa-circle-play text-white font-size-2_5 playfooter"></i>
+                <i class="fa-solid fa-forward-step text-white font-size-2"></i>
+                <i class="fa-solid fa-rotate-right text-white font-size-2"></i>
             </div>
-            <div class="width-60">
+            <div class="width-60 mobile-slider">
                 <div class="sliderbar dflex align-center margin-bottom-15">
                     <span class="text-white font-bold">0:25</span>
                     <div class="bigslider">
@@ -266,34 +267,27 @@
                     </div>
                     <span class="text-white font-bold">4:35</span>
                 </div>
-
-
             </div>
-
-
         </div>
-        <div class="dflex width-300">
-            <div class="dflex width-100">
-                <i class="fa-solid fa-list-ul text-white margin-right-10 font-size-1_5"></i>
-                <i class="fa-solid fa-display text-white margin-right-10 font-size-1_5"></i>
-                <i class="fa-solid fa-volume-high text-white margin-right-10 font-size-1_5"></i>
-                <div class="width-100 margin-right-10 dflex align-center">
+
+
+        <div class="right-box">
+            <div class="dflex width-100 iconright">
+                <i class="fa-solid fa-list-ul text-white font-size-1_5"></i>
+                <i class="fa-solid fa-display text-white font-size-1_5"></i>
+                <i class="fa-solid fa-volume-high text-white font-size-1_5"></i>
+                <div class="width-100  dflex align-center">
                     <div class="mediumslider">
                         <div class="smallslider">
                             <div class="playcircle"></div>
                         </div>
                     </div>
-
                 </div>
-
-
-
-
             </div>
         </div>
-
-
     </footer>
 </body>
 
 </html>
+
+
